@@ -1,8 +1,6 @@
 import Foundation
-import FirebaseCore
-import FirebaseFirestore
-import FirebaseAuth
 import FirebaseFirestoreSwift
+import FirebaseFirestore
 
 struct Reply_MetaData: Identifiable, Codable {
     @DocumentID var id: String?
